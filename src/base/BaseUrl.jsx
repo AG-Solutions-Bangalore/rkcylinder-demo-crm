@@ -1,3 +1,3 @@
-const BASE_URL = "https://testags.store/public";
+const BASE_URL = "https://rkcylinder.in/public";
 
 export default BASE_URL;
