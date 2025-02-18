@@ -71,11 +71,9 @@ const ForgetPassword = () => {
           {/* Form */}
           <div className="md:w-1/2 px-8 md:px-16">
             <div className="flex justify-center mb-4">
-              <img
-                src="/rkcyllogo.png"
-                alt="RK Cylinder Logo"
-                className="h-14 w-auto rounded-lg"
-              />
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-red-500 to-red-700 text-transparent bg-clip-text">
+                The Cylinder
+              </h1>
             </div>
             <h2 className="font-bold text-2xl text-[#002D74]">
               Forget Password

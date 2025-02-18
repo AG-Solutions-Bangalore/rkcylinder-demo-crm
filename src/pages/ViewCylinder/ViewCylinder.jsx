@@ -234,7 +234,7 @@ const ViewCylinder = () => {
                           <tbody>
                             <tr className="border-b border-gray-200">
                               <td className="p-2 font-semibold">
-                                RK Serial No
+                                The Serial No
                               </td>
                               <td className="p-2">:</td>
                               <td className="p-2 font-semibold">

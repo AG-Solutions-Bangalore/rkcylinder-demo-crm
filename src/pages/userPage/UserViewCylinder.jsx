@@ -273,7 +273,7 @@ const UserViewCylinder = () => {
                       <table className="w-full border border-gray-300 mb-4">
                         <tbody>
                           <tr className="border-b border-gray-200">
-                            <td className="p-2 font-semibold">RK Serial No</td>
+                            <td className="p-2 font-semibold">The Serial No</td>
                             <td className="p-2">:</td>
                             <td className="p-2 font-semibold">
                               {cylinder.cylinder_sub_barcode}
