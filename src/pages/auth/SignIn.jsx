@@ -1,4 +1,3 @@
-
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -12,7 +11,6 @@ const SignIn = () => {
   const [loading, setLoading] = useState(false);
   const { isPanelUp, setUserInfo } = useContext(ContextPanel);
   const navigate = useNavigate();
-  
 
   const handleSumbit = async (e) => {
     e.preventDefault();
@@ -101,14 +99,13 @@ const SignIn = () => {
         <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
           {/* Form */}
           <div className="md:w-1/2 px-8 md:px-16">
-            {/* Logo Image */}
+    
             <div className="flex justify-center mb-4">
-              <img
-                src="/rkcyllogo.png"
-                alt="RK Cylinder Logo"
-                className="h-14 w-auto rounded-lg  "
-              />
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-red-500 to-red-700 text-transparent bg-clip-text">
+                The Cylinder
+              </h1>
             </div>
+
             <h2 className="font-bold text-2xl text-[#002D74]">Login</h2>
             <p className="text-xs mt-4 text-[#002D74]">
               If you are already a member, easily log in
@@ -126,7 +123,7 @@ const SignIn = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Mobile No"
-                 autocomplete="username"
+                autocomplete="username"
               />
               <div className="relative">
                 <input
@@ -138,7 +135,6 @@ const SignIn = () => {
                   placeholder="Password"
                   autocomplete="current-password"
                 />
-                
               </div>
               <button
                 type="sumbit"

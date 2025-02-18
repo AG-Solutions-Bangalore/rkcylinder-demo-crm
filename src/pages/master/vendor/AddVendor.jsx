@@ -163,7 +163,7 @@ const AddVendor = () => {
                     </>
                   )}
                 </Button>
-                <Link to="vendor">
+                <Link to="/vendor">
                   <Button className="flex items-center bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400">
                     <FaTimes className="mr-2" />
                     Cancel
